@@ -6,3 +6,10 @@ To simulate the transactions generation and transmission, be sure that:
 - the board is connected to the computer;
 - in file transactions.c, instruction 17, Rop_privK must be replaced with your secret key; 
 - in file send_Tx.py, be sure that the serial port is correctly set. Also, you must insert the sender address (i.e., the one corresponding to the secret written in transactions.c).
+
+
+Required additional dependencies:
+
+- "A small and fast ECDH and ECDSA implementation for 8-bit, 32-bit, and 64-bit processors,” accessed: 04-2022. [Online]. Available: https://github.com/kmackay/micro-ecc
+- “C Ethereum RLP library,” accessed: 04-2022. [Online]. Available: https://github.com/KingHodor/Ethereum-RLP
+- “Rhash (Recursive Hasher),” accessed: 04-2022. [Online]. Available: https://github.com/rhash/RHash/blob/master/librhash/sha3.c
